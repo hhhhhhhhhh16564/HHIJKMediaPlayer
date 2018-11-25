@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHIJKMediaPlayer_Example' do
+  pod 'HHIJKMediaPlayer', :path => '../'
+
+  target 'HHIJKMediaPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
